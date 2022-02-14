@@ -1,0 +1,48 @@
+
+
+/*
+
+
+    **title Attribute'e Sahip Olan p Etiketleri Etkilenir**
+
+    p[title]{
+        border: 1px solid red;
+    }
+
+
+    **title Attribute'u second Olan p Etiketi Etkilenir**
+
+    p[title="second"]{
+    border: 1px solid red;
+    }
+
+
+    **(~) İşareti Kullanırsak title Etiketinde forth Kelimesi Geçen title'lar Etkilenir**
+
+    p[title~=forth]{
+    border: 1px red solid;
+    }
+
+
+    **(^) İşareti Kullanırsak title'ı f İle Başlayanlar Etkilenir**
+
+    p[title^="f"]{
+    border: 1px solid red;
+    }
+
+
+    **($) İşareti Kullanarak title'ının Sonunda h Olanlar Etkilenir**
+
+    p[title$="h"]{
+    border: red 1px solid;
+    }
+
+
+    **a Etiketlerinden href Ve target Değerleri Bu Şekilde Olanlar Etkilenir**
+    
+    a[href="https://www.example.net/"][target="_blank"]{
+    border: 1px solid red;
+}
+
+
+*/

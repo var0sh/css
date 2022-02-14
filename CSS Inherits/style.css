@@ -1,0 +1,34 @@
+body{
+    color: brown;
+    font-size: 20px;
+}
+
+ul{
+    color: teal;
+}
+
+li{
+    color: yellowgreen;
+}
+
+.orange{
+    color: orange !important;
+}
+
+#passive{
+    color: gray;
+}
+
+a{
+    color: inherit; /*inherit : Bu özellik kullanıldığında kendisinde bir önceki etiketin o özelliğini kendisi de aynı şekil de kullanır.*/
+    font-size: 50px;
+}
+
+span{
+    color: red;
+    border: 1px solid green;
+}
+
+#inherit span{
+    color: aqua;
+}

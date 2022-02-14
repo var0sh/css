@@ -1,0 +1,19 @@
+.box{
+    margin-bottom: 10px;
+    width: 500px;
+}
+#first{
+    background-color: gold;
+    padding: 50px 50px 50px 100px;
+}
+#second{
+    background-color: green;
+}
+*{
+    margin: 0;
+}
+span{
+    background-color: red;
+    margin-right: 20px;
+    padding: 50px;
+}

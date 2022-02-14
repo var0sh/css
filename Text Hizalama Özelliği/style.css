@@ -1,0 +1,30 @@
+body{
+    width: 700px;
+    margin: 30px auto;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+p#first{
+    text-align: right;
+}
+p#second{
+    text-align: center;
+}
+p#third{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(173, 216, 230, 0.4);
+
+    column-count: 3;
+    -webkit-column-count: 3; /*Opera, Safari, Chrome İçin Olması Gereken Bir Özellik*/
+    -moz-column-count: 3; /*Bu Özellik Sayesinde O Paragraftaki Yazıyı İstediğimiz Sayıda Kolona Böler*//*Mozilla İçin Gereken Özellik*/
+
+    column-rule: 1px solid rgb(173, 216, 230); /*Bu Özellik Sayesinde Oluşturduğumuz Kolonların Aralarına Çizgi Çekeriz*/
+    -webkit-column-rule: 1px solid rgb(173, 216, 230);
+    -moz-column-rule: 1px solid rgb(173, 216, 230);
+}
+p#forth{
+    text-align: justify; /*'justify' Sayesinde Paragraf'ın Sağ Ve Solunda Hiçbir Boşluk Bırakmaz*/
+}
+div{
+    text-align: center;
+}

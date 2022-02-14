@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--
+        Group Selectors
+
+        1 : (*)         => Tüm Etiketler
+        2 : (p)         => Tüm p Etiketleri
+        3 : (div p)     => div İçindeki Tüm p Etiketleri
+        4 : (div,p)     => Tüm div Ve Tüm p Etiketleri
+        5 : (div > p)   => Üst Etiketi div Olan Tüm p Etiketleri
+        6 : (p ~ div)   => p İle Aynı Seviyede Ve p'den Sonra Gelen Tüm div Etiketleri
+        7 : (p + div)   => p Etiketinden Sonra Gelen Tüm div Etiketleri
+        8 : (div.box)   => Class'ı box Olan Tüm div Etiketleri
+    -->
+
+    <div class="container">
+        
+        <p class="p1">.container > paragraf 1</p>
+        <p class="p1">.container > paragraf 2</p>
+        <div class="box">
+            .container > box 1
+            <p>.container > box > paragraf 3</p>
+            <p>.container > box > paragraf 4</p>
+        </div>
+        <div class="box">.container > box 2</div>
+        <div class="box">.container > box 3</div>
+        <div>.container > div</div>
+    </div>
+    <p>paragraf 5</p>
+    <p>paragraf 6</p>
+    <div class="box">box 4</div>
+    <div class="box">box 5</div>
+</body>
+</html>

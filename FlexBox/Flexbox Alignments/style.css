@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 2000px;
+    flex-direction: column;
+    /*justify-content: center;*/ /*elemanlar ortada hizalanır*/
+    /*justify-content: start; /*elemanlar soldan itibaren hizalanır*/
+    /*justify-content: end; /*elemanlar sağdan itibaren hizalanır*/
+    /*justify-content: space-between; /*elemanlar soldan sağa doğru aralarında eşit boşluklar kalacak şekilde hizalanır*/
+    /*justify-content: space-evenly; /*elemanlar ilk elemandan son elemana kadar tüm elemanların sağında ve solunda eşit boşluklar bırakılır*/
+    /*align-items: stretch; /*(dikeyde-hizlama) bu özellik sayesinde flexbox içerisindeki elemanlardan sadece bir tanesine bile verilen height değeri tüm elemanları etkiler daha özel bir css uygulanmadığı sürece*/
+    align-items: baseline; /*elemanların içerisindeki textlere göre hizalanır. yani tüm boxların içerisindeki textlerin alt kısımları eşit hizaya gelir*/
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 15px;
+    display: flex;
+}
+.item{
+    padding: 30px;
+    background-color: chocolate;
+    margin: 30px;
+    color: #fff;
+    font-size: 25px;
+}
+.i1{
+    height: 500px;
+    padding-top: 100px;
+}
+.i4{
+    font-size: 60px;
+}

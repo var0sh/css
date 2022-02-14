@@ -1,0 +1,60 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+}
+li{
+    display: inline-block;
+    float: left;
+    margin-right: 1px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+a{
+    display: block;
+    text-decoration: none;
+    background-color: #2f3036;
+    min-width: 140px;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+a:hover{
+    background-color: #19c589;
+}
+li:hover ul a{
+    background-color: #f3f3f3;
+    color: black;
+    height: 40px;
+    line-height: 40px;
+}
+li:hover ul a:hover{
+    background-color: #19c589;
+    color: #fff;
+}
+li li{
+    display: block;
+    float: none;
+}
+li ul a{
+    text-align: left;
+    min-width: 100px;
+    padding: 0 20px;
+}
+li ul{
+    display: none;
+}
+li ul:hover{
+    display: none;
+}
+a:hover + #hidden, #hidden:hover{
+    display: block;
+}
+ul li:hover a{
+    background-color: #19c589;
+}

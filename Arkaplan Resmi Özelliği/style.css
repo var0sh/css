@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+div{
+    height: 4000px;
+}
+.header{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.3) , rgba(255, 255, 0, 0.7)),
+    url(image/bg.jpeg);
+    height: 95vh; /*Bu 'vh' özelliği ile header divimizin sayfanın %95'ini (yükseklik olarak) kaplamasını sağlar.*/
+    background-size: cover;
+    background-position: top; /*background-size ve background-position özellikleri sayesinde görsel bozulmadan dive sığdırılır ve tarayıcı büyütülüp küçültülse bile background-position: bottom sayesinde alt tarafı sabit kalır diğer kenarları kırpılır.*/
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%); /*Bu özellik ile görselimizi keşelerden kırparak istediğimiz şekilde kullanıcıya sunabiliriz.*/ /*circle(10%); şeklinde kullanırsak görselimizi daire şekline getirir.*/
+    position: relative;
+}
+.heading{
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%); /*Bu özellik ile görsel içerisinde kullanmak istediğimiz nesnelerin boyutlarını da işin içine katarak nesnemizi arkaplan görselimizin tam ortasına getirmemizi sağlar*/ /*Parantez içerisindeki ilk parametre x eksenini gösterir. Eğer -50% dersek nesnemizin yarısının sağdan sola değil soldan sağa doğru hizalanmasını sağlar. Aynı işlem ikinci parametre içinde geçerlidir. Fakat ikinci parametre y eksenini temsil eder.*/
+}
+.heading-main{
+    font-size: 50px;
+    display: block;
+    letter-spacing: 10px;
+}
+.heading-sub{
+    font-size: 30px;
+    display: block;
+    letter-spacing: 5px;
+}
+.logo-box{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.logo{
+    height: 50px;
+}

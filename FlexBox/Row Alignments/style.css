@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 15px;
+    flex-wrap: wrap;
+    height: 1000px;
+    align-content: space-between;
+    align-content: space-around;
+    align-content: center;
+    align-content: flex-end;
+    align-content: flex-start;
+    align-content: stretch; /*container'ın yüksekliğinin tamamını satır adedine böler ve nesnelere eşit height verir*/
+}
+.item{
+    padding: 30px;
+    background-color: chocolate;
+    margin: 30px;
+    color: #fff;
+    font-size: 25px;
+}
+.i8{
+    flex-grow: 1;
+}

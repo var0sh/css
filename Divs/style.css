@@ -1,0 +1,10 @@
+#section-one{
+    color: blue;
+    background-color: aquamarine;
+    height: 100px;
+    overflow/*Türkçesi : Taşma*/: scroll;   /*div İçeriği div'den Taşsada Taşmasada ScrollBar Görünür*/
+                                            /*'scroll' Yerine 'hidden' Kullanılsaydı Taşan İçerik Yok Edilecekti*/            
+}                                           /*'overflow: auto;' Özelliği İle ScrollBar Gerektiğinde Ekranda*/
+#section-two{
+    color: brown;
+}

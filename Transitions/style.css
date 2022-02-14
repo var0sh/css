@@ -1,0 +1,34 @@
+*{
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+.card{
+    width: 150px;
+    height: 150px;
+    background: blue;
+    transition: width 2s, height 2s, background 1s; /*İmleç İle Üzerine Geldiğimizde Belirlediğimiz Süre Boyunca Belirdeiğimiz İşlemin Yapılmasını Sağlar*/ /*'transition' ın İlk Parametresi Değiştirilmesini İstediğimiz Özellik, Yanına İse Süresi Yazılır.*/
+    -webkit-transition: width 2s, height 2s, background 1s;
+    -moz-transition: width 2s, height 2s, background 1s;
+    -o-transition: width 2s, height 2s, background 1s;
+    margin-bottom: 10px;
+    transition-delay: 0.1s; /*Bu Özellik İle İmleç Üzerine Geldiğinde Ne Kadar Saniye İstediğimiz İşleme Başlayacağını Söylüyoruz*/
+}
+.card:hover{
+    width: 250px;
+    height: 250px;
+    background: aquamarine;
+}
+#card-1{
+    transition-timing-function: ease; /*Bu Özelliğin Varsayılanı Zaetn 'ease' Değişen Bir Şey Olmayacak*/
+}
+#card-2{
+    transition-timing-function: linear; /*'linear' İle İstediğimiz Süre Boyunca Aynı Hızda İstediğimiz İşlemi Yaptırır*/
+}
+#card-3{
+    transition-timing-function: ease-in; /*'ease-in' İle Yavaş Başlar Sonradan Hızlanır<*/
+}
+#card-4{
+    transition-timing-function: ease-out; /*'ease-out' İle Hızlı Başlar Sonrasında Yavaşlar*/
+}
+#card-5{
+    transition-timing-function: ease-in-out; /*'ease-in-out' Başlangıç Ve Bitişte Yavaş*/
+}

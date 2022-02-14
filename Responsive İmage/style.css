@@ -1,0 +1,4 @@
+img{
+    max-width: 100%; /*Bu kod ile maximum genişliğinin görselin orjinal genişliği kadar olmasını söylüyoruz. Nu sayede web tarayıcımız görselin orjinal genişliğinin üzerine çıksa bile görselin çözünürlüğü bozulmadan orjinal çözünürlüğünde kalacaktır.*/
+    height: auto;
+}

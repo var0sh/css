@@ -1,0 +1,10 @@
+.box{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: solid pink 1px;
+}
+.head{
+    height: 150px;
+    background-color: blue;
+}

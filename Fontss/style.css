@@ -1,0 +1,15 @@
+body{
+    font-size: 20px;
+    font-family: 'Irish Grover', cursive;
+}
+p{
+    font-size: 100%;
+    font-family: 'Brush Script MT', cursive;
+}
+span{
+    font-size: 1em; /*'em' Yazdığımızda Yanındaki Sayının O Kadar Katını Alır. Yani Normal Fontumuz 16, 2em Yazdığımızda 32 Olacaktır.*/
+}
+#deneme{
+    font-family: 'Indie Flower', cursive;
+    display: block;
+}

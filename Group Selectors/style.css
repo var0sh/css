@@ -1,0 +1,56 @@
+/*
+    Group Selectors
+
+    1 : (*)         => Tüm Etiketler
+    2 : (p)         => Tüm p Etiketleri
+    3 : (div p)     => div İçindeki Tüm p Etiketleri
+    4 : (div,p)     => Tüm div Ve Tüm p Etiketleri
+    5 : (div > p)   => Üst Etiketi div Olan Tüm p Etiketleri
+    6 : (p ~ div)   => p İle Aynı Seviyede Ve p'den Sonra Gelen Tüm div Etiketleri
+    7 : (p + div)   => p Etiketinden Sonra Gelen İlk div Etiketi
+    8 : (div.box)   => Class'ı box Olan Tüm div Etiketleri   
+*/
+
+p+div{
+    border: 1px solid blue;
+}
+
+/*
+
+*{
+    border: 1px solid blue;
+}
+
+p{
+    border: solid 1px blue;
+}
+
+div p{
+        border: blue 1px solid;
+}
+
+.container div{
+    border: 1px solid blue;
+}
+
+.container div.box{
+    border: 1px blue solid;
+}
+
+div,p{
+    border: 1px solid blue;
+}
+
+div.box,p{
+    border: 1px solid blue;
+}
+
+div>p{
+    border: 1px solid blue;
+}
+
+p~div{
+    border: 1px solid blue;
+}
+
+*/

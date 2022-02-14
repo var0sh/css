@@ -1,0 +1,17 @@
+#box1{
+    width: 300px;
+    height: 100px;
+    background-color: green;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 10px solid black;
+    box-sizing: content-box; /*box-sizing Özelliğinde Tarayıcılar Varsayılan Olarak content-box Kabul Eder.*/
+}
+#box2{
+    width: 300px;
+    height: 100px;
+    background-color: gold;
+    padding: 10px;
+    border: 10px solid black;
+    box-sizing: border-box; /*border-box Sayesinde box2'ye Verilen Yükseklik Ve Genişlik İçerisine border Ve padding Değerleride Dahil Edilir*/
+}

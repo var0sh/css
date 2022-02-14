@@ -1,0 +1,35 @@
+#container{
+    width: 1140px;
+}
+#blog-post-container{
+    width: 75%;
+    float: left;
+}
+#other-posts{
+    width: 25%;
+    float: left;
+    position: fixed;
+    top: 20px;
+    right: 0;
+}
+.blog-post{
+    margin: 10px;
+    position: relative;
+}
+.tags li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+.tags{
+    margin: 0;
+    padding: 0;
+}
+.tags li a{
+    text-decoration: none;
+}
+.date{
+    position: absolute;
+    right: 10px;
+    top: 0;
+}

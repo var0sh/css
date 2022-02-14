@@ -1,0 +1,125 @@
+*{
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+.btn{
+    padding: 12px 30px;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+.primary{
+    background: #007bff;
+    color: white;
+}
+.primary:hover{
+    opacity: 0.7;
+}
+.secondary{
+    background: #6c767d;
+    color: white;
+}
+.secondary:hover{
+    opacity: 0.7;
+}
+.success{
+    background: #28a745;
+    color: white;
+}
+.success:hover{
+    opacity: 0.7;
+}
+.danger{
+    background: #dc3545;
+    color: white;
+}
+.danger:hover{
+    opacity: 0.7;
+}
+.warning{
+    background: #ffc107;
+    color: white;
+}
+.warning:hover{
+    opacity: 0.7;
+}
+.btn-xs{
+    padding: 8px 15px;
+    font-size: 12px;
+}
+.btn-sm{
+    padding: 10px 22px;
+    font-size: 14px;
+}
+.btn-md{
+    padding: 12px 26px;
+    font-size: 16px;
+}
+.btn-lg{
+    padding: 16px 30px;
+    font-size: 16px;
+}
+.btn-bg{
+    font-size: 40px;
+}
+.btn-block{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.rounded{
+    border-radius: 50%;
+}
+.primary-outline{
+    background: white;
+    color: #007bff;
+    border: 1px solid #007bff;
+}
+.primary-outline:hover{
+    color: white;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+}
+.secondary-outline{
+    background: white;
+    color: #6c767d;
+    border: 1px solid #6c767d;
+}
+.secondary-outline:hover{
+    color: white;
+    background-color: #6c767d;
+    border: 1px solid #6c767d;
+}
+.success-outline{
+    background: white;
+    color: #28a745;
+    border: 1px solid #28a745;
+}
+.success-outline:hover{
+    color: white;
+    background-color: #28a745;
+    border: 1px solid #28a745;
+}
+.danger-outline{
+    background: white;
+    color: #dc3545;
+    border: 1px solid #dc3545;
+}
+.danger-outline:hover{
+    color: white;
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+}
+.warning-outline{
+    background: white;
+    color: #ffc107;
+    border: 1px solid #ffc107;
+}
+.warning-outline:hover{
+    color: white;
+    background-color: #ffc107;
+    border: 1px solid #ffc107;
+}
+i{
+    margin-right: 3px;
+}

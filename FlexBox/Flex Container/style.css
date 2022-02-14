@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #f2f2f2;
+    /*flex-direction: row-reverse;*/ /*Bu özellik sayesinde ilk eleman soldan sağa sıralanmak yerine sağdan sola doğru sıralanır.*/
+    /*flex-direction: column;*/ /*Bu özellik sayesinde elemanlar kolon şeklinde yani yukarıdan aşşağıya doğru ilk elemandan itibaren sıralanırlar*/
+    flex-wrap: wrap; /*bu özellik yan yana sığmayan elemanların bir alt satıra geçmesini sağlar*/
+    padding: 15px;
+    display: flex;
+}
+.item{
+    padding: 30px;
+    background-color: chocolate;
+    margin: 30px;
+    color: #fff;
+    font-size: 25px;
+}

@@ -1,0 +1,99 @@
+/*Pseudo Element*/
+
+p::first-line{
+    color: brown;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+p.about::first-line{
+    color: green;
+}
+
+p::first-letter{
+    font-size: 48px;
+}
+
+p::after{
+    content: "";
+    display: block;
+    background-color: yellow;
+    padding: 10px;
+}
+
+p::before{
+    content: "";
+    display: block;
+    background-color: yellow;
+    padding: 10px;
+}
+
+/*Pseudo Class*/
+
+ul li:first-child{
+    background-color: red;
+}
+
+ul li:last-child{
+    background-color: red;
+}
+
+ul li{
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+ul li:nth-last-of-type(even){
+    border: orange 2px solid;
+}
+
+ul li:nth-last-of-type(odd){
+    border: rgb(30, 30, 163) 2px solid;
+}
+
+a{
+    padding: 5px 8px;
+    text-decoration: none;
+    display: block;
+    width: 80px;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+/*a Etiketinin Linkine Tıklanmamış Hali*/
+
+a:link{
+    color: red;
+}
+
+/*a Etiketinin Linkine Önceden Tıklanmış Hali*/
+
+a:visited{
+    background-color: gray;
+}
+
+/*a Etiketinin Linkinin Üzerine Gelinmiş Hali*/
+
+a:hover{
+    color: white;
+    background-color: green;
+}
+
+/*a Etiketinin Linkinin Üzerine Gelip Tıkladığımızda*/
+
+a:active{
+    color: green;
+    background-color: gold;
+}
+
+span{
+    display: none;
+    background: yellow;
+    padding: 20px;
+}
+
+div:hover span{
+    display: block;
+}

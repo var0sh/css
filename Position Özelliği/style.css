@@ -1,0 +1,26 @@
+.box{
+    width: 120px;
+    height: 120px;
+}
+#first{
+    background-color: red;
+    position: sticky;
+    top: 0;
+}
+#second{
+    background-color: blue;
+    position: relative;
+}
+#third{
+    background-color: green;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.mbox{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    position: absolute;
+    top: 50px;
+}

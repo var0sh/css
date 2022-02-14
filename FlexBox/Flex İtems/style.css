@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 15px;
+    align-items: center;
+}
+.item{
+    padding: 30px;
+    background-color: chocolate;
+    margin: 30px;
+    color: #fff;
+    font-size: 25px;
+    flex-grow: 4; /*bu özellik sayesinde container içerisindeki tüm elemanların eşit yer kaplamasını sağlıyoruz.fakat flex'i elemanlara daha özel bir css ile verirsek bu sefer verdiğimiz değer kadar yer kaplar. eğer i1'e 2 verirsek diğer elemanlar x yer kaplarken i2 2x yer kaplar*/
+}
+.i1{
+    align-self: stretch;
+    order: 3;
+}
+.i2{
+    height: 200px;
+    order: -5;
+    flex: 0 0 300px; /*flex-grow*//*flex-shrink*//*genişlik*/
+}
+.i3{
+    align-self: start;
+    order: 10;
+}
+.i4{
+    align-self: flex-end;
+    order: 7; /*order sayesinde elemanları istediğimiz sıra ile sıralarız*/
+}
